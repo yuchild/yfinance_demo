@@ -16,4 +16,13 @@ As of 8/24/2020
  'min_samples_split': 6,
  'n_estimators': 25}
  
+ 1d JEF
+ {'bootstrap': True,
+ 'max_depth': 3,
+ 'max_features': 3,
+ 'min_samples_leaf': 5,
+ 'min_samples_split': 4,
+ 'n_estimators': 5}
+ 
+ 1hr JEF
  
