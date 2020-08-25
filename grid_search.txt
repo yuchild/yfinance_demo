@@ -1,0 +1,19 @@
+As of 8/24/2020
+
+1d IYW
+{'bootstrap': True,
+ 'max_depth': 6,
+ 'max_features': 4,
+ 'min_samples_leaf': 4,
+ 'min_samples_split': 2,
+ 'n_estimators': 105}
+ 
+ 1hr IYW
+ {'bootstrap': True,
+ 'max_depth': 6,
+ 'max_features': 2,
+ 'min_samples_leaf': 2,
+ 'min_samples_split': 6,
+ 'n_estimators': 25}
+ 
+ 
