@@ -1,5 +1,20 @@
 As of 8/24/2020
-
+1d IDEX
+{'bootstrap': False,
+ 'max_depth': 4,
+ 'max_features': 6,
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 5}
+ 
+ 1hr IDEX
+ {'bootstrap': True,
+ 'max_depth': 5,
+ 'max_features': 3,
+ 'min_samples_leaf': 2,
+ 'min_samples_split': 4,
+ 'n_estimators': 5}
+ 
 1d IYW
 {'bootstrap': True,
  'max_depth': 6,
@@ -33,6 +48,54 @@ As of 8/24/2020
  'n_estimators': 5}
  
  1d TSLA
+ {'bootstrap': True,
+ 'max_depth': 5,
+ 'max_features': 6,
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 4,
+ 'n_estimators': 25}
+ 
+ 1hr TSLA
+ {'bootstrap': True,
+ 'max_depth': 2,
+ 'max_features': 4,
+ 'min_samples_leaf': 4,
+ 'min_samples_split': 6,
+ 'n_estimators': 45}
+ 
+ 1d VGT
+ {'bootstrap': True,
+ 'max_depth': 3,
+ 'max_features': 5,
+ 'min_samples_leaf': 5,
+ 'min_samples_split': 2,
+ 'n_estimators': 5}
+ 
+ 1hr VGT
+ {'bootstrap': False,
+ 'max_depth': 4,
+ 'max_features': 2,
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 3,
+ 'n_estimators': 5}
+ 
+ 1d VHT
+ {'bootstrap': True,
+ 'max_depth': 5,
+ 'max_features': 6,
+ 'min_samples_leaf': 3,
+ 'min_samples_split': 4,
+ 'n_estimators': 25}
+ 
+ 1hr VHT
+ {'bootstrap': True,
+ 'max_depth': 4,
+ 'max_features': 5,
+ 'min_samples_leaf': 5,
+ 'min_samples_split': 6,
+ 'n_estimators': 5}
+ 
+ 
  
  
  
