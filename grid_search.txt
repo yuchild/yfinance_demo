@@ -1,4 +1,15 @@
-As of 8/24/2020
+As of 8/26/2020
+1d BAC
+{'bootstrap': True,
+ 'max_depth': 2,
+ 'max_features': 1,
+ 'min_samples_leaf': 5,
+ 'min_samples_split': 5,
+ 'n_estimators': 5}
+
+1hr BAC
+
+
 1d IDEX
 {'bootstrap': False,
  'max_depth': 4,
