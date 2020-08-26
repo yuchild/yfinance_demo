@@ -8,7 +8,12 @@ As of 8/26/2020
  'n_estimators': 5}
 
 1hr BAC
-
+{'bootstrap': True,
+ 'max_depth': 4,
+ 'max_features': 4,
+ 'min_samples_leaf': 2,
+ 'min_samples_split': 5,
+ 'n_estimators': 5}
 
 1d IDEX
 {'bootstrap': False,
