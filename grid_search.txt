@@ -24,7 +24,12 @@ As of 8/27/2020
  'n_estimators': 5}
  
 1hr CRM
-
+{'bootstrap': True,
+ 'max_depth': 6,
+ 'max_features': 2,
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 3,
+ 'n_estimators': 5}
 
 1d IDEX
 {'bootstrap': False,
@@ -34,8 +39,8 @@ As of 8/27/2020
  'min_samples_split': 2,
  'n_estimators': 5}
  
- 1hr IDEX
- {'bootstrap': True,
+1hr IDEX
+{'bootstrap': True,
  'max_depth': 5,
  'max_features': 3,
  'min_samples_leaf': 2,
@@ -50,8 +55,8 @@ As of 8/27/2020
  'min_samples_split': 2,
  'n_estimators': 105}
  
- 1hr IYW
- {'bootstrap': True,
+1hr IYW
+{'bootstrap': True,
  'max_depth': 6,
  'max_features': 2,
  'min_samples_leaf': 2,
@@ -74,15 +79,15 @@ As of 8/27/2020
  'min_samples_split': 2,
  'n_estimators': 5}
  
- 1d TSLA
- {'bootstrap': False,
+1d TSLA
+{'bootstrap': False,
  'max_depth': 1,
  'max_features': 3,
  'min_samples_leaf': 1,
  'min_samples_split': 2,
  'n_estimators': 25}
  
- 1hr TSLA
+1hr TSLA
 {'bootstrap': False,
  'max_depth': 6,
  'max_features': 1,
@@ -90,32 +95,32 @@ As of 8/27/2020
  'min_samples_split': 3,
  'n_estimators': 25}
  
- 1d VGT
- {'bootstrap': True,
+1d VGT
+{'bootstrap': True,
  'max_depth': 3,
  'max_features': 5,
  'min_samples_leaf': 5,
  'min_samples_split': 2,
  'n_estimators': 5}
  
- 1hr VGT
- {'bootstrap': False,
+1hr VGT
+{'bootstrap': False,
  'max_depth': 4,
  'max_features': 2,
  'min_samples_leaf': 1,
  'min_samples_split': 3,
  'n_estimators': 5}
  
- 1d VHT
- {'bootstrap': True,
+1d VHT
+{'bootstrap': True,
  'max_depth': 5,
  'max_features': 6,
  'min_samples_leaf': 3,
  'min_samples_split': 4,
  'n_estimators': 25}
  
- 1hr VHT
- {'bootstrap': True,
+1hr VHT
+{'bootstrap': True,
  'max_depth': 4,
  'max_features': 5,
  'min_samples_leaf': 5,
