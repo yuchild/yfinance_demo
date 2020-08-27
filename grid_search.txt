@@ -1,4 +1,4 @@
-As of 8/26/2020
+As of 8/27/2020
 1d BAC
 {'bootstrap': True,
  'max_depth': 2,
@@ -14,6 +14,17 @@ As of 8/26/2020
  'min_samples_leaf': 2,
  'min_samples_split': 5,
  'n_estimators': 5}
+
+1d CRM
+{'bootstrap': True,
+ 'max_depth': 3,
+ 'max_features': 5,
+ 'min_samples_leaf': 5,
+ 'min_samples_split': 2,
+ 'n_estimators': 5}
+ 
+1hr CRM
+
 
 1d IDEX
 {'bootstrap': False,
@@ -47,37 +58,37 @@ As of 8/26/2020
  'min_samples_split': 6,
  'n_estimators': 25}
  
- 1d JEF
- {'bootstrap': True,
+1d JEF
+{'bootstrap': True,
  'max_depth': 3,
- 'max_features': 3,
- 'min_samples_leaf': 5,
- 'min_samples_split': 4,
+ 'max_features': 5,
+ 'min_samples_leaf': 3,
+ 'min_samples_split': 5,
  'n_estimators': 5}
  
- 1hr JEF
- {'bootstrap': True,
- 'max_depth': 3,
- 'max_features': 3,
- 'min_samples_leaf': 4,
- 'min_samples_split': 3,
+1hr JEF
+{'bootstrap': False,
+ 'max_depth': 2,
+ 'max_features': 4,
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
  'n_estimators': 5}
  
  1d TSLA
- {'bootstrap': True,
- 'max_depth': 5,
- 'max_features': 6,
+ {'bootstrap': False,
+ 'max_depth': 1,
+ 'max_features': 3,
  'min_samples_leaf': 1,
- 'min_samples_split': 4,
+ 'min_samples_split': 2,
  'n_estimators': 25}
  
  1hr TSLA
- {'bootstrap': True,
- 'max_depth': 2,
- 'max_features': 4,
+{'bootstrap': False,
+ 'max_depth': 6,
+ 'max_features': 1,
  'min_samples_leaf': 4,
- 'min_samples_split': 6,
- 'n_estimators': 45}
+ 'min_samples_split': 3,
+ 'n_estimators': 25}
  
  1d VGT
  {'bootstrap': True,
