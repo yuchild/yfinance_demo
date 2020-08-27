@@ -87,6 +87,22 @@ As of 8/27/2020
  'min_samples_split': 2,
  'n_estimators': 25}
  
+1d NVAX
+{'bootstrap': True,
+ 'max_depth': 1,
+ 'max_features': 3,
+ 'min_samples_leaf': 3,
+ 'min_samples_split': 4,
+ 'n_estimators': 45}
+ 
+1hr NVAX
+{'bootstrap': True,
+ 'max_depth': 3,
+ 'max_features': 4,
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 5}
+
 1hr TSLA
 {'bootstrap': False,
  'max_depth': 6,
