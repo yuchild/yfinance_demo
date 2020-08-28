@@ -78,15 +78,7 @@ As of 8/27/2020
  'min_samples_leaf': 1,
  'min_samples_split': 2,
  'n_estimators': 5}
- 
-1d TSLA
-{'bootstrap': False,
- 'max_depth': 1,
- 'max_features': 3,
- 'min_samples_leaf': 1,
- 'min_samples_split': 2,
- 'n_estimators': 25}
- 
+
 1d NVAX
 {'bootstrap': True,
  'max_depth': 1,
@@ -103,6 +95,30 @@ As of 8/27/2020
  'min_samples_split': 2,
  'n_estimators': 5}
 
+1d QDEL
+{'bootstrap': True,
+ 'max_depth': 2,
+ 'max_features': 4,
+ 'min_samples_leaf': 2,
+ 'min_samples_split': 3,
+ 'n_estimators': 5}
+ 
+1hr QDEL
+{'bootstrap': True,
+ 'max_depth': 5,
+ 'max_features': 3,
+ 'min_samples_leaf': 5,
+ 'min_samples_split': 2,
+ 'n_estimators': 45}
+
+1d TSLA
+{'bootstrap': False,
+ 'max_depth': 1,
+ 'max_features': 3,
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 25}
+ 
 1hr TSLA
 {'bootstrap': False,
  'max_depth': 6,
