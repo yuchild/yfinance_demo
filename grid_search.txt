@@ -110,7 +110,11 @@ As of 8/27/2020
  'min_samples_leaf': 4,
  'min_samples_split': 3,
  'n_estimators': 25}
- 
+
+1d VBIV
+
+
+
 1d VGT
 {'bootstrap': True,
  'max_depth': 3,
