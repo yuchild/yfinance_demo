@@ -112,8 +112,20 @@ As of 8/27/2020
  'n_estimators': 25}
 
 1d VBIV
-
-
+{'bootstrap': True,
+ 'max_depth': 4,
+ 'max_features': 4,
+ 'min_samples_leaf': 1,
+ 'min_samples_split': 2,
+ 'n_estimators': 25}
+ 
+1hr VBIV
+{'bootstrap': False,
+ 'max_depth': 4,
+ 'max_features': 3,
+ 'min_samples_leaf': 5,
+ 'min_samples_split': 3,
+ 'n_estimators': 45}
 
 1d VGT
 {'bootstrap': True,
