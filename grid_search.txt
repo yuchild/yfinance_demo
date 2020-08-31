@@ -1,5 +1,13 @@
-As of 8/27/2020
-1d BAC
+As of 8/30/2020
+1wk BAC 7.16%
+{'bootstrap': True,
+ 'max_depth': 6,
+ 'max_features': 6,
+ 'min_samples_leaf': 3,
+ 'min_samples_split': 4,
+ 'n_estimators': 25}
+
+1d BAC 
 {'bootstrap': True,
  'max_depth': 2,
  'max_features': 1,
